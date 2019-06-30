@@ -1,3 +1,6 @@
+"""
+2016 年参加 CCCC 所做的榜单爬取工具
+"""
 import urllib
 import requests
 from bs4 import BeautifulSoup

@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
-
+"""
+抓取指定用户的做题情况（需要教师账户）
+"""
 import urllib
 import urllib.request
 import urllib.parse

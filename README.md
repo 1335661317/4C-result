@@ -1,14 +1,14 @@
-# <h3>CCCC - 中国高校计算机大赛 成绩抓取+排序</h3>
-#<h3>环境</h3>
+## CCCC - 中国高校计算机大赛 成绩抓取+排序
+### 环境
     编译语言：python
     版本号：  python3.4
     基于 urllib && requests && BeautifulSoup
 
-#<h3>功能</h3>
+### 功能
 - 抓取成绩
 - 可按照 名次/名称/总分 进行排序
 
-# <h3>使用方法</h3>
+### 使用方法
     安装python3.4及所需的requests urllib bs4
     
     Ubuntu：
@@ -34,5 +34,23 @@
     
     搞定~
 
-#<h3>网址</h3>
-    https://www.dreamwings.cn
+## 蓝桥杯做题情况抓取
+
+- user 为指定用户 id
+- cookie 为教师账户登录以后所获得的
+
+最终保存为 xls 表格
+
+## 甘肃教师学苑自动阅读文章
+
+idList 为要阅读的文章 id
+
+## ECNU 考研初试成绩自动邮件通知
+
+- cookie 需自行指定
+- mail_host smtp 服务器地址
+- mail_user smtp 用户名
+- mail_pass smtp 密码
+- sender 发件人地址
+- receivers 收件人地址
+
